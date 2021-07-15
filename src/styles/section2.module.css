@@ -1,0 +1,41 @@
+#main-container{
+
+    background-color: #fff;
+    padding: 0 10vw;
+    padding-top: 10vh;
+
+    height: 300vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+
+#why-button:hover{
+    color:#119;
+    cursor: pointer;
+}
+
+#why-button{
+    outline: none;
+    border: none;
+    background-color: transparent;
+
+    color: #32c;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+#title{
+    font-size: 2.5vw;
+    width: 40vw;
+}
+
+#top-container{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}

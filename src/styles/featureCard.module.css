@@ -1,0 +1,17 @@
+#main-container{
+    width: 25vw;
+    /* min-width: 400px; */
+}
+
+#heading{
+    margin: 5px 0px;
+    font-size: 18px;
+    
+}
+
+#parragraph{
+    margin: 10px 0px;
+    font-size: 18px;
+    line-height: 25px;
+    color: #666;
+}
