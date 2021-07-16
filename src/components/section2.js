@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from '../styles/section2.module.css';
-import featureCardStyles from '../styles/featureCard.module.css';
+import featureCardStyles from '../styles/section2-featureCard.module.css';
+import middleSubSectionStyles from '../styles/section2-middleSubSection.module.css';
 
 const featureCardsInfo = [
     {
@@ -39,6 +40,24 @@ class FeatureCard extends React.Component{
     }
 }
 
+const MiddleSubSection = ( ) => {
+
+
+    return(
+        <div id={middleSubSectionStyles['main-container']}>
+            <div id={middleSubSectionStyles['info-container']}>
+                <h3 id={middleSubSectionStyles['header']}>Diversify your portfolio.</h3>
+                <p id={middleSubSectionStyles['text']}>Create an even more impressive portfolio by creating case studies for your projects. Simply follow our step-by-step guide.</p>
+                <button id={middleSubSectionStyles['button']}>Start Free Trial</button>
+            </div>
+            
+            <div id={middleSubSectionStyles['image-container']}>
+                <img id={middleSubSectionStyles['image']} src={require('../Assets/Page Image.png').default} alt="page" />
+            </div>
+        </div>
+    );
+}
+
 
 
 
@@ -59,11 +78,12 @@ class Section2 extends React.Component{
         return(
             <div id={styles['main-container']}>
                 <button id={styles['why-button']}>Why Fiber?</button>
-                <h2 id={styles['title']}>A good portfolio means good employability.</h2>
+                <h2 id={styles['header']}>A good portfolio means good employability.</h2>
 
                 <div id={styles['top-container']}>
                     {this.featureCards(featureCardsInfo)}
                 </div>
+                <MiddleSubSection />
 
 
             </div>
