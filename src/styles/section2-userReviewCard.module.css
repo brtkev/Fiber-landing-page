@@ -1,0 +1,52 @@
+#main-container{
+
+    border-radius: 5px;
+    border: 1px solid #ddd;
+
+    width: 25vw;
+    padding: 30px;
+}
+
+#user-container{
+    display: flex;
+    align-items: center;
+}
+
+#user-info-container{
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;  
+}
+
+#user-info-container > p{
+    margin: 0;
+    margin-left: 20px;
+}
+
+#user-info-container__name{
+    font-weight: 600;
+    color: #32c;
+}
+
+#text{
+    color: #222;
+}
+
+#button:hover{
+    cursor: pointer;
+    background-color: #ddd;
+}
+
+
+#button{
+    border: 1px solid #ddd;
+    outline: none;
+
+    background-color: transparent;
+    width: 100%;
+    padding: 10px 0;
+
+    font-size: 17px;
+    font-weight: 600;
+    color: #32c;
+}
