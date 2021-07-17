@@ -1,8 +1,7 @@
 #main-container{
 
     background-color: #fff;
-    padding: 0 10vw;
-    padding-top: 10vh;
+    padding: 10vh 10vw;
 
     display: flex;
     flex-direction: column;
@@ -46,6 +45,6 @@
 }
 
 #bottom-container > div{
-    margin-top: 4vw;
+    margin-top: 60px;
     margin-right: 3vw;
 }
