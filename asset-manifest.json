@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/static/css/main.a5f3f469.chunk.css",
+    "main.js": "/static/js/main.a81c89da.chunk.js",
+    "main.js.map": "/static/js/main.a81c89da.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.96ae0e75.js",
+    "runtime-main.js.map": "/static/js/runtime-main.96ae0e75.js.map",
+    "static/js/2.9b7f9149.chunk.js": "/static/js/2.9b7f9149.chunk.js",
+    "static/js/2.9b7f9149.chunk.js.map": "/static/js/2.9b7f9149.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.a5f3f469.chunk.css.map": "/static/css/main.a5f3f469.chunk.css.map",
+    "static/js/2.9b7f9149.chunk.js.LICENSE.txt": "/static/js/2.9b7f9149.chunk.js.LICENSE.txt",
+    "static/media/Checkmark.svg": "/static/media/Checkmark.950467d3.svg",
+    "static/media/Hamburger Menu.svg": "/static/media/Hamburger Menu.c4da44b0.svg",
+    "static/media/Page Image.png": "/static/media/Page Image.58001398.png",
+    "static/media/Sign Up Image.png": "/static/media/Sign Up Image.8258e31f.png",
+    "static/media/User Avatar 2.svg": "/static/media/User Avatar 2.720a3f18.svg",
+    "static/media/User Avatar 32.svg": "/static/media/User Avatar 32.827af893.svg",
+    "static/media/User Avatar.svg": "/static/media/User Avatar.0aa7a909.svg",
+    "static/media/allSizes.svg": "/static/media/allSizes.12ae633b.svg",
+    "static/media/code.svg": "/static/media/code.4e85a89a.svg",
+    "static/media/hero-Illustration.png": "/static/media/hero-Illustration.c89141ed.png",
+    "static/media/hide password.svg": "/static/media/hide password.69e86df7.svg",
+    "static/media/star.svg": "/static/media/star.2257c844.svg",
+    "static/media/time.svg": "/static/media/time.b86ed61a.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.96ae0e75.js",
+    "static/js/2.9b7f9149.chunk.js",
+    "static/css/main.a5f3f469.chunk.css",
+    "static/js/main.a81c89da.chunk.js"
+  ]
+}
